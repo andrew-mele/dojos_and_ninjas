@@ -1,0 +1,103 @@
+$primary: #ff5c8d;
+$primary-light: #ffc0d3;
+$secondary-dark: #524a4e;
+$secondary-light: #fdeff4;
+body {
+  background-color: $secondary-light;
+}
+
+.container {
+  margin-top: 30px;
+  background-color: $primary;
+  padding: 35px;
+  h1 {
+    color: $primary-light;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  h4 {
+    color: $primary-light;
+    padding-right: 50px;
+    margin-left: 31px;
+  }
+  h5 {
+      font-weight: 700;
+  }
+  .location {
+    text-align: center;
+  }
+
+  .new-dojo {
+    margin-right: 50px;
+    background-color: $secondary-dark;
+    #add-ninja {
+      text-align: center;
+      margin-top: 20px;
+    }
+    a {
+      color: $primary !important;
+      text-decoration: none;
+      text-align: center;
+      font-size: 18px;
+    }
+    .new-dojo-input {
+      margin-right: 34px;
+      padding-left: 10px;
+    }
+  }
+
+  .all-dojos {
+    margin-left: 50px;
+    background-color: $secondary-dark;
+    #dojo-name {
+      text-align: center;
+    }
+    a {
+        color: $primary !important;
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+      }
+
+  }
+  .table {
+    background-color: $secondary-light;
+  }
+
+  .table-success {
+    background-color: #ffc0d3;
+  }
+  .ninja-details {
+      font-size: 18px;
+      font-weight: 350;
+  }
+  .gohome {
+    color: $primary-light !important;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+  }
+  .age {
+      margin-left: 24px;
+  }
+  .form-select{
+      width: 25%;
+      text-align: center;
+      margin-left: 21.5px;
+      margin-bottom: 15px !important;
+  }
+
+  .btn {
+      background-color: $secondary-light;
+      color: $primary;
+      border-color: $primary;
+      margin-top: 15px !important;
+  }
+
+  .btn:hover{
+      background-color: $secondary-dark;
+      color: $primary-light;
+      border-color: #fdeff4;
+  }
+}
